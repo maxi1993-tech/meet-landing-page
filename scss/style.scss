@@ -32,3 +32,27 @@ $bp-desktop: 1440px;
     --radius-btn: 29px;
     --radius-img: 12px;
 }
+
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--color-slate-900);
+    background-color: var(--color-white);
+}
