@@ -15,25 +15,29 @@
 
 <body>
   <header>
-    <img src="./assets/logo.svg" alt="Meet">
+    <img class="logo" src="./assets/logo.svg" alt="Meet">
   </header>
   <main>
     <div class="hero">
-      <div><img src="./assets/desktop/image-hero-left.png" alt=""></div>
-      <section class="hero-content">
-        <h1>Group Chat for Everyone</h1>
-        <p>
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
-        <ul>
-          <li><a href="#">Download v1.3</a></li>
-          <li><a href="#">What is it?</a></li>
-        </ul>
-      </section>
-
-      <div><img src="./assets/desktop/image-hero-right.png" alt=""></div>
+      <div class="hero-container">
+        <div class="hero-img">
+          <div><img src="./assets/desktop/image-hero-left.png" alt="" width="208..05" height="160"></div>
+          <div><img src="./assets/desktop/image-hero-right.png" alt="" width="208..05" height="160"></div>
+        </div>
+        <section class="hero-content">
+          <h1>Group Chat for Everyone</h1>
+          <p>
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <ul class="box-button">
+            <li class="button-left"><a href="#">Download <span>v1.3</span></a></li>
+            <li class="button-right"><a href="#">What is it?</a></li>
+          </ul>
+        </section>
+      </div>
     </div>
+
     <div class="features">
       <div>
         <p aria-hidden="true">01</p>
@@ -43,7 +47,7 @@
         <img src="./assets/desktop/image-man-texting.jpg" alt="">
       </div>
       <article>
-        <p>Built for modern use</p>
+        <p class="label">Built for modern use</p>
         <h2>Smarter meetings, all in one place</h2>
         <p>
           Send messages, share files, show your screen, and record your
@@ -65,7 +69,7 @@
         Stay connected with reliable HD meetings and unlimited one-on-one and
         group video sessions.
       </p>
-      <div><a href="">Download v1.3</a></div>
+      <div class="button-cta"><a href="">Download <span>v1.3</span></a></div>
     </article>
     <p>&copy; Coded by: Maxime Chapelle</p>
   </footer>

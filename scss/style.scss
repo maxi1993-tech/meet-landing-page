@@ -29,6 +29,8 @@ $bp-desktop: 1440px;
     --fw-medium: 500;
     --fw-black: 900;
 
+    /* Size */
+    --hero-max-width: 19.0625rem;
     --radius-btn: 29px;
     --radius-img: 12px;
 }
@@ -44,15 +46,115 @@ $bp-desktop: 1440px;
 
 img {
     display: block;
-    max-width: 100%;
 }
 
-ul {
-    list-style: none;
-}
-
+/* body */
 body {
     font-family: var(--font-primary);
     color: var(--color-slate-900);
     background-color: var(--color-white);
+}
+
+h1 {
+    color: var(--color-slate-900);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-black);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+    line-height: var(--lh-heading);
+}
+
+p {
+    color: var(--color-slate-600);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    font-weight: var(--fw-medium);
+}
+
+.label {
+    font-size: var(--fs-label);
+    line-height: var(--lh-heading);
+    letter-spacing: var(--ls-label);
+}
+
+/* Header */
+header {
+    padding: 3rem 5rem 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+
+    .logo {
+        max-width: 100%;
+    }
+}
+
+/* Hero-img */
+.hero-img {
+    display: flex;
+    justify-content: center;
+    gap: 1.0625rem;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem 2rem 2rem;
+    text-align: center;
+
+    .hero-container {
+        max-width: var(--hero-max-width);
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+    }
+}
+
+/* Button */
+.box-button {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.0625rem;
+
+    li {
+        border-radius: var(--radius-btn);
+
+        a {
+            color: var(--color-white);
+            font-size: var(--fs-base);
+            line-height: var(--lh-body);
+            text-decoration: none;
+            font-weight: var(--fw-black);
+            display: flex;
+            gap: 0.25rem;
+            padding: 1rem 2.5rem;
+
+            span {
+                color: var(--color-cyan-300);
+            }
+        }
+    }
+
+    .button-left {
+        background-color: var(--color-cyan-600);
+    }
+
+    .button-right {
+        background-color: var(--color-purple-600);
+    }
 }
