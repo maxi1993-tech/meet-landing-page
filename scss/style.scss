@@ -1,0 +1,34 @@
+$bp-tablet: 768px;
+$bp-desktop: 1440px;
+
+:root {
+    /* Colors */
+    --color-cyan-600: hsl(192, 37%, 48%);
+    --color-cyan-300: hsl(192, 90%, 77%);
+    --color-purple-600: hsl(268, 34%, 53%);
+    --color-purple-300: hsl(268, 100%, 86%);
+    --color-slate-900: hsl(240, 21%, 20%);
+    --color-slate-600: hsl(240, 10%, 57%);
+    --color-slate-300: hsl(240, 18%, 85%);
+    --color-white: hsl(0, 0%, 98%);
+
+    /* Typography */
+    --fs-h1: clamp(2.5rem, 4vw, 4rem);
+    --fs-h2: clamp(2rem, 4vw, 2.5rem);
+    --fs-label: clamp(0.75rem, 2vw, 1rem);
+
+    --fs-body: clamp(1rem, 2vw, 1.125rem);
+    --fs-base: 1rem;
+
+    --lh-heading: 1.1;
+    --lh-body: 1.5;
+
+    --ls-label: 0.25rem;
+
+    --font-primary: 'Red Hat Display', sans-serif;
+    --fw-medium: 500;
+    --fw-black: 900;
+
+    --radius-btn: 29px;
+    --radius-img: 12px;
+}
