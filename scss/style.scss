@@ -58,12 +58,15 @@ body {
 h1 {
     color: var(--color-slate-900);
     font-size: var(--fs-h1);
+    line-height: var(--lh-heading);
     font-weight: var(--fw-black);
 }
 
 h2 {
+    color: var(--color-slate-900);
     font-size: var(--fs-h2);
     line-height: var(--lh-heading);
+    font-weight: var(--fw-black);
 }
 
 p {
@@ -71,12 +74,6 @@ p {
     font-size: var(--fs-body);
     line-height: var(--lh-body);
     font-weight: var(--fw-medium);
-}
-
-.label {
-    font-size: var(--fs-label);
-    line-height: var(--lh-heading);
-    letter-spacing: var(--ls-label);
 }
 
 /* Header */
@@ -156,5 +153,77 @@ header {
 
     .button-right {
         background-color: var(--color-purple-600);
+    }
+}
+
+/* Number */
+.container-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .line-number {
+        background-color: var(--color-slate-300);
+        width: 1px;
+        height: 80px;
+    }
+
+    .box-number {
+        border: 1px solid var(--color-slate-300);
+        margin: auto;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .number {
+            font-weight: var(--fw-black);
+        }
+    }
+}
+
+
+/* Features */
+.features-container {
+    padding: 2rem 2rem 4rem 2rem;
+    text-align: center;
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+        .features-img {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+
+            img {
+                width: 100%;
+                border-radius: var(--radius-img);
+            }
+        }
+
+        .features-content {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            .label {
+                color: var(--color-cyan-600);
+                font-size: var(--fs-label);
+                line-height: var(--lh-heading);
+                letter-spacing: var(--ls-label);
+                font-weight: var(--fw-black);
+            }
+
+            .features-heading {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
     }
 }
