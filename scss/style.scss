@@ -142,6 +142,7 @@ header {
             display: flex;
             gap: 0.25rem;
             padding: 1rem 2.5rem;
+            border-radius: var(--radius-btn);
 
             span {
                 color: var(--color-cyan-300);
@@ -322,6 +323,7 @@ footer {
             display: flex;
             gap: 0.25rem;
             padding: 1rem 2.5rem;
+            border-radius: var(--radius-btn);
 
             &:focus {
                 background-color: var(--color-purple-hover);
