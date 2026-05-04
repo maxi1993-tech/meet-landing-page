@@ -336,3 +336,29 @@ footer {
         }
     }
 }
+
+@media (min-width: $bp-tablet) {
+    // styles tablette
+    .hero {
+        padding: 4rem 2rem;
+
+        .hero-img {
+            display: flex;
+            gap: 2rem;
+
+            img {
+
+            }
+        }
+
+        .hero-container {
+            max-width: 42.5rem;
+            display: flex;
+            gap: 4.5rem;
+        }
+    }
+}
+
+@media (min-width: $bp-desktop) {
+    // styles desktop
+}
