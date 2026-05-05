@@ -15,9 +15,9 @@ $bp-desktop: 1440px;
     --color-white: hsl(0, 0%, 98%);
 
     /* Typography */
-    --fs-h1: clamp(2.5rem, 4vw, 4rem);
-    --fs-h2: clamp(2rem, 4vw, 2.5rem);
-    --fs-label: clamp(0.75rem, 2vw, 1rem);
+    --fs-h1: clamp(2.5rem, 6.25vw, 4rem);
+    --fs-h2: clamp(2rem, 4.6875vw, 2.5rem);
+    --fs-label: clamp(0.75rem, 1.822916vw, 1rem);
 
     --fs-body: clamp(1rem, 2vw, 1.125rem);
     --fs-base: 1rem;
@@ -338,6 +338,7 @@ footer {
 }
 
 @media (min-width: $bp-tablet) {
+
     // styles tablette
     .hero {
         padding: 4rem 2rem;
@@ -347,7 +348,8 @@ footer {
             gap: 2rem;
 
             img {
-
+                width: 394px;
+                height: 303px;
             }
         }
 
@@ -355,7 +357,15 @@ footer {
             max-width: 42.5rem;
             display: flex;
             gap: 4.5rem;
+
+
+            .hero-content {
+                width: 28.01875rem;
+                margin: auto;
+            }
         }
+
+
     }
 }
 
