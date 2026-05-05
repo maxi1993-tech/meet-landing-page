@@ -358,6 +358,19 @@ footer .copy {
     right: -190px;
     bottom: 0;
   }
+  .features-container {
+    padding: 3.5rem 5rem 4.5rem 5rem;
+  }
+  .features-container .features {
+    align-items: center;
+  }
+  .features-container .features .features-img {
+    max-width: 70rem;
+  }
+  .features-container .features .features-img img {
+    width: 256px;
+    height: 256px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
