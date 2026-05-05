@@ -330,5 +330,34 @@ footer .copy {
     background-image: url(/assets/tablet/image-footer.jpg);
   }
 }
+@media (min-width: 1440px) {
+  .hero {
+    padding: 4rem 5rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .hero .hero-container {
+    max-width: 70rem;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    gap: 1.5rem;
+  }
+  .hero .hero-container .img-left {
+    order: -1;
+    position: absolute;
+    left: -190px;
+    top: 0;
+  }
+  .hero .hero-container .hero-content {
+    order: 2;
+  }
+  .hero .hero-container .img-right {
+    order: 3;
+    position: absolute;
+    right: -190px;
+    bottom: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -399,4 +399,38 @@ footer {
 
 @media (min-width: $bp-desktop) {
     // styles desktop
+
+    .hero {
+        padding: 4rem 5rem;
+        display: flex;
+        flex-direction: row;
+        
+
+
+        .hero-container {
+            max-width: 70rem;
+            height: 100%;
+            width: 100%;
+            position: relative;
+            gap: 1.5rem;
+
+            .img-left {
+                order: -1;
+                position: absolute;
+                left: -190px;
+                top: 0;
+            }
+
+            .hero-content {
+                order: 2;
+            }
+
+            .img-right {
+                order: 3;
+                position: absolute;
+                right: -190px;
+                bottom: 0;
+            }
+        }
+    }
 }
