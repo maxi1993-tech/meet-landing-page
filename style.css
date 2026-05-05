@@ -42,10 +42,15 @@ img {
 }
 
 /* body */
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font-primary);
   color: var(--color-slate-900);
   background-color: var(--color-white);
+  overflow-x: hidden;
 }
 
 h1 {
