@@ -16,7 +16,6 @@
 .prettierignore
 
 # Compiled CSS
-style.css
 style.css.map
 
 # Node
