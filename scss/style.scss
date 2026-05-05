@@ -367,6 +367,25 @@ footer {
 
 
     }
+
+    .features-container {
+        padding: 3.5rem 2rem 4rem 2rem;
+
+        .features {
+
+            .features-img {
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: 1fr;
+                gap: 1.5rem;
+            }
+
+            .features-content {
+                max-width: 31.5rem;
+                margin: auto;
+            }
+        }
+
+    }
 }
 
 @media (min-width: $bp-desktop) {
