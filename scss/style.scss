@@ -377,6 +377,11 @@ footer {
                 grid-template-columns: repeat(4, 1fr);
                 grid-template-rows: 1fr;
                 gap: 1.5rem;
+
+                img {
+                    width: 152px;
+                    height: 160px;
+                }
             }
 
             .features-content {

@@ -318,6 +318,10 @@ footer .copy {
     grid-template-rows: 1fr;
     gap: 1.5rem;
   }
+  .features-container .features .features-img img {
+    width: 152px;
+    height: 160px;
+  }
   .features-container .features .features-content {
     max-width: 31.5rem;
     margin: auto;
