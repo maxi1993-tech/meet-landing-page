@@ -451,4 +451,21 @@ footer {
             }
         }
     }
+
+    .cta {
+        background-image: url(/assets/desktop/image-footer.jpg);
+        padding: 7rem 5rem;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+
+        h2 {
+            width: 27.8125rem;
+        }
+
+        p {
+            width: 22.1875rem;
+        }
+    }
+
 }

@@ -371,6 +371,19 @@ footer .copy {
     width: 256px;
     height: 256px;
   }
+  .cta {
+    background-image: url(/assets/desktop/image-footer.jpg);
+    padding: 7rem 5rem;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+  .cta h2 {
+    width: 27.8125rem;
+  }
+  .cta p {
+    width: 22.1875rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
