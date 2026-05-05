@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/meet-landing-page-sass-flexbox-grid-mobile-first-workflow-L4Oq-acxna)
 - Live Site URL: [meet-landing-page](https://maxi1993-tech.github.io/meet-landing-page/)
 
 ## My process
