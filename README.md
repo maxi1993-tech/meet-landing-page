@@ -50,9 +50,30 @@ Users should be able to:
 ### What I learned
 
 - Discovered `::before` to overlay a color on top of a background image — I need to dig deeper into this!
+
+```css
+.cta::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--color-cyan-600);
+  opacity: 0.9;
+}
+```
+
 - `clamp()` is starting to make sense — I understood how to calculate the fluid `vw` value
 - To hide horizontal overflow, `overflow-x: hidden` needs to go on `html` — not just `body`
 - With `order` in flexbox you can reorder elements visually without touching the HTML
+
+```css
+.img-left { order: -1; }
+.hero-content { order: 2; }
+.img-right { order: 3; }
+```
+
 - Realized that `:hover` on `<li>` and `:focus` on `<a>` don't target the same element — took me a while to figure out
 
 ### Continued development
