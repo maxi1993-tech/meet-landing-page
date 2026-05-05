@@ -322,6 +322,9 @@ footer .copy {
     max-width: 31.5rem;
     margin: auto;
   }
+  .cta {
+    background-image: url(/assets/tablet/image-footer.jpg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

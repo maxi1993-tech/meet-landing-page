@@ -386,6 +386,10 @@ footer {
         }
 
     }
+
+    .cta {
+        background-image: url(/assets/tablet/image-footer.jpg);
+    }
 }
 
 @media (min-width: $bp-desktop) {
