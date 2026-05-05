@@ -279,7 +279,7 @@ footer {
 
 .cta {
     position: relative;
-    background-image: url(/assets/mobile/image-footer.jpg);
+    background-image: url(./assets/mobile/image-footer.jpg);
     background-size: cover;
     margin-top: -1.75rem;
     padding: 4rem 2rem;
@@ -393,7 +393,7 @@ footer {
     }
 
     .cta {
-        background-image: url(/assets/tablet/image-footer.jpg);
+        background-image: url(./assets/tablet/image-footer.jpg);
     }
 }
 
@@ -453,7 +453,7 @@ footer {
     }
 
     .cta {
-        background-image: url(/assets/desktop/image-footer.jpg);
+        background-image: url(./assets/desktop/image-footer.jpg);
         padding: 7rem 5rem;
         flex-direction: row;
         align-items: center;
